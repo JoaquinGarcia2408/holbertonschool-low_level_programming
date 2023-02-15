@@ -1,2 +1,4 @@
-#!bin/bash
-gcc puts("Programming is like building a multilingual puzzle") 
+int main(void){
+	//gcc puts("Programming is like building a multilingual puzzle") 
+	retrun 0;
+}

@@ -4,6 +4,6 @@
  * Return: 0 if success.
  */
 int main(void){
-	("/"Programming is like building a multilingual puzzle"); 
-	retrun (0);
+	("Programming is like building a multilingual puzzle"); 
+	return 0;;
 }

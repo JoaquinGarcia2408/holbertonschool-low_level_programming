@@ -1,1 +1,2 @@
-#!bin/bashgcc puts("Programming is like building a multilingual puzzle") 
+#!bin/bash
+gcc puts("Programming is like building a multilingual puzzle") 

@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Description: main - Prints out a string to stdout.
+ * Return: 0 if success.
  */
 int main(void){
-	//gcc puts("/"Programming is like building a multilingual puzzle"); 
+	("/"Programming is like building a multilingual puzzle"); 
 	retrun (0);
 }

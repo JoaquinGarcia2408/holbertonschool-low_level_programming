@@ -11,7 +11,9 @@ int main(void)
 	int num = 0;
 
 	while (num > 8)
+	{
 		printf("%d\n", num);
-	num++;
+		num++;
+	}
 	return (0);
 }

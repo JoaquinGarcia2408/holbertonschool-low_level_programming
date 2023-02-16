@@ -13,5 +13,6 @@ int main(void)
 
 	for (letra = 0; letra <= 25; letra++)
 		putchar(abc[letra]);
+	putchar('\n');
 	return (0);
 }

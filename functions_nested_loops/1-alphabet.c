@@ -3,10 +3,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * print_alphabet - Imprime alfabeto
+ * Return: Always 0
  **/
-int main(void)
+void print_alphabet(void)
 {
 	int abc;
 
@@ -15,5 +15,4 @@ int main(void)
 		_putchar(abc);
 	}
 	_putchar('\n');
-	return (0);
 }

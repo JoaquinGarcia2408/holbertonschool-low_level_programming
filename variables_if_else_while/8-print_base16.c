@@ -10,7 +10,7 @@ int main(void)
 {
 	char *b16 = "0123456789abcdef";
 	int lector;
-	
+
 	for (lector = 0; lector <= 15; lector++)
 		putchar(b16[lector]);
 	putchar('\n');

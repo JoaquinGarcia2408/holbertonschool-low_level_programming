@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  *  * main - Entry point
@@ -9,7 +9,11 @@
  *    **/
 int main(void)
 {
-	printf("_putchar");
+	char *put = "_putchar";
+	int lector;
+
+	for (lector = 0; lector <= 7; lector++)
+		putchar(put[lector]);
 	putchar('\n');
 	return (0);
 }

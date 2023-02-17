@@ -11,7 +11,7 @@ int main(void)
 	char *cba = "abcdefghijklmnopqrstuvwxyz";
 	int lector;
 
-	for (lector = 25; lector > 0; lector--)
+	for (lector = 25; lector >= 0; lector--)
 		putchar(cba[lector]);
 	putchar('\n');
 	return (0);

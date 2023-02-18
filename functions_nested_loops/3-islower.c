@@ -8,17 +8,14 @@ int _islower(int c)
 {
 	char *abc = "abcdefghijklmnopqrstuvwxyz";
 	int letra;
+	int ret = 0;
 
 	for (letra = 0; letra <= 25; letra++)
 	{
 		if (c == abc[letra])
 		{
-			return (1);
-		}
-		else
-		{
-			return (0);
+			ret = 1;
 		}
 	}
-	return (0);
+	return (ret);
 }

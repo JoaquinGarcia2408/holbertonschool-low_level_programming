@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - Imprime alfabeto x dies
+ * print_alphabet_x10 - print alphabet x tenn
  * Return: Always 0
  **/
 void print_alphabet_x10(void)

@@ -2,7 +2,7 @@
 #include "limits.h"
 
 /**
- * main - Entry poin
+ * print_last_digit - Short description, single line
  * @num: Description of parameter x
  * Return: num
  **/

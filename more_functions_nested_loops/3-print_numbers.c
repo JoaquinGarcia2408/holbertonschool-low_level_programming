@@ -5,6 +5,8 @@
  */
 void print_numbers(void)
 {
+	int num;
+
 	for (num = o; num <= 9; num++)
 		_putchar(num)
 			return (0);

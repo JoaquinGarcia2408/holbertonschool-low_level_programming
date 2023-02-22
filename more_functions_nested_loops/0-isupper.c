@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code.
+ * _isupper - check the code.
  * @c: letra
  * Return: Always 0.
  */

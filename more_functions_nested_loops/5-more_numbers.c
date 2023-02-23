@@ -5,16 +5,16 @@
  */
 void more_numbers(void)
 {
-        char *num = "01234567891011121314";
-        int letra;
+	char *num = "01234567891011121314";
+	int letra;
 	int cont;
 
-        for (cont = 0; cont <= 10; cont++)
+	for (cont = 0; cont <= 9; cont++)
 	{
 		for (letra = 0; letra <= 19; letra++)
 		{
 			putchar(num[letra]);
-		}	
+		}
 		putchar('\n');
 	}
 }

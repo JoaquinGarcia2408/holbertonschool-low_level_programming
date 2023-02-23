@@ -9,4 +9,5 @@ void print_numbers(void)
 
 	for (num = 48; num <= 97; num++)
 		_putchar (num);
+	_putchar ('\n');
 }

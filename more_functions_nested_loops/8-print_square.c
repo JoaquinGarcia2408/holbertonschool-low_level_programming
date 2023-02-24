@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_diagonal - check the code.
- * @n: numero aleatorio
+ * print_square - check the code.
+ * @size : is the size of the square
  * Return: Always 0.
  */
 void print_square(int size)
@@ -14,7 +14,7 @@ void print_square(int size)
 		{
 			for (logo = 0; logo < size; logo++)
 			_putchar('#');
-			if (h == size -1)
+			if (h == size - 1)
 				continue;
 			_putchar('\n');
 		}

@@ -13,5 +13,4 @@ void _puts(char *str)
 		_putchar(str[lector]);
 	}
 		_putchar('\n');
-	
 }

@@ -8,7 +8,7 @@ void print_rev(char *s)
 {
 	int lector, i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'-1; i++)
 		;
 	for (lector = i; lector >= 0; lector--)
 	{

@@ -13,7 +13,7 @@ void puts_half(char *str)
 		tam++;
 		lector++;
 	}
-	for (lector = 0; lector <= tam; lector++)
+	for (lector = 0; lector < tam; lector++)
 	{
 		if (tam % 2 == 0 && lector >= tam / 2)
 			_putchar(str[lector]);

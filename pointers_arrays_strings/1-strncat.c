@@ -4,7 +4,7 @@
  * @dest: string one
  * @src: string two
  * @n: most bytes
- * return: always 0.
+ * Return: dest
  **/
 char *_strncat(char *dest, char *src, int n)
 {
@@ -12,9 +12,17 @@ char *_strncat(char *dest, char *src, int n)
 
 	i = 0;
 	while (dest[i])
+	{
 		i++;
-	for (s = 0; src[s]; s++)
+	}
+	s = 0;
+	while (src[s])
+	{
 		if (i < n)
+		{
+			i++;
 			dest[i++] = src[s];
+		}
+	}
 	return (dest);
 }

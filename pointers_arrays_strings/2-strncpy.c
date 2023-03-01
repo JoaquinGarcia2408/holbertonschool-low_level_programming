@@ -4,20 +4,19 @@
  * @dest: string one
  * @src: string two
  * @n: limit caracters
- * Return: o
+ * Return: 0
  **/
 char *_strncpy(char *dest, char *src, int n)
 {
-	int cont = 0, lect;
+	int cont;
 
-        while (src[cont] != '\0' && cont < n)
-        {
-                cont++;
-        }
-        for (lect = 0; lect <= cont; lect++)
-        {
-                dest[lect] = src[lect];
-        }
-        dest[lect] = '\0';
+	for (cont = 0; cont < n && src[cont] != '\0'; cont++)
+	{
+		dest[cont] = src[cont];
+	}
+	for (; cont < n; cont++)
+	{
+		dest[cont] = '\0';
+	}
         return (dest);
 }

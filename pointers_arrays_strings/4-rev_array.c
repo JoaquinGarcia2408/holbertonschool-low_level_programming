@@ -6,14 +6,18 @@
  **/
 void reverse_array(int *a, int n)
 {
-	int lector, i;
+	int inter, i;
 
-	i = 0;
-	while (a[i] != n)
-		i++;
-	for (lector = i - 1; lector >= 0; lector--)
+	for (i = 0; i < n / 2; i++)
+	/** i empieza en 0 y va creciendo, n-i-1 es la pocicon del otroextremo **/
 	{
-		_putchar(a[lector]);
+		inter = a[i];
+		a[i] = a[n - i - 1];
+		a[n - i - 1] = inter;
 	}
-	_putchar('\n');
 }
+	/**
+	 *se escribe a[i] en inter
+	 *se sobre escribe a[n-i-1] en a[i]
+	 *se sobre escribe a[n-i-1] en inter
+	 **/

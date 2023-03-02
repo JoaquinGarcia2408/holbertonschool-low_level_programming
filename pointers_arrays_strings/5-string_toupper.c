@@ -2,6 +2,7 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @pal: changes all lowercase
+ * return: pal
  **/
 char *string_toupper(char *pal)
 {

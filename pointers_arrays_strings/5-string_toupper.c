@@ -9,11 +9,11 @@ char *string_toupper(char *pal)
 
 	while (pal[lect])
 	{
-		if (pal[lect] > 97 && pal[lect] < 122)
+		if (pal[lect] >= 97 && pal[lect] <= 122)
 		{
-			pal[lect] -= 32;
+			pal[lect] = pal[lect] - 32;
 		}
-		pal++;
+		lect++;
 	}
 	return (pal);
 }

@@ -19,10 +19,10 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		if (*p == '\0')
 		{
-			return result;
+			return (result);
 		}
 		result++;
 		s++;
 	}
-	return result;
+	return (result);
 }

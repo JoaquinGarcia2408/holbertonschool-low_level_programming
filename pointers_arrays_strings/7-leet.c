@@ -6,11 +6,11 @@
  **/
 char *leet(char *cad)
 {
-	int lec = 0, lec2;
+	int lec, lec2;
 	char *l = "AaEeOoTtLl";
 	char *n = "4433007711";
 
-	while (cad[lec++])
+	for (lec = 0; cad[lec]; lec++)
 	{
 		for (lec2 = 0; l[lec2]; lec2++)
 		{

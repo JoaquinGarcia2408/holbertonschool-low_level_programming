@@ -3,7 +3,7 @@
  * main - print name
  * @argc: cantidad de palabras
  * @argv: pointer strings
- * Retur: 0.
+ * Return: 0.
  **/
 int main(int __attribute__((unused)) argc, char *argv[])
 {

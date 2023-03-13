@@ -7,10 +7,12 @@
 char *_strdup(char *str)
 {
 	char *str2;
-	int t, i;
+	int t = 0, i;
 
-	for (t = 0; str[t] != '\0'; t++)
-		str2 = malloc(sizeof(char) * t);
+	while (str[t] != '\0')
+		t++;
+	str2 = malloc(sizeof(char) * t);
+
 	if (str == NULL)
 	{
 		return (NULL);

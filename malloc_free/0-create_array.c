@@ -7,23 +7,23 @@
  **/
 char *create_array(unsigned int size, char c)
 {
-	char *ptr;
-	unsigned int i, n;
+	char *p;
+	unsigned int i;
 
-	*ptr = malloc(n * sizeof(char);
+	p = malloc(sizeof(char) * size);
 
-	if (ptr == NULL)
+	if (p == NULL)
 	{
 		exit(0);
 	}
 	else if (size != 0)
 	{
-		for (i = 0; i < n; i++)
-			ptr[i] = c
-		return (ptr);
+		for (i = 0; i < size; i++)
+			p[i] = c;
 	}
 	else
 	{
 		return (NULL);
 	}
+	return (p);
 }

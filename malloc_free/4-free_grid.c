@@ -9,5 +9,5 @@ void free_grid(int **grid, int height)
 	{
 		free(grid[f]);
 	}
-	free(a);
+	free(grid);
 }

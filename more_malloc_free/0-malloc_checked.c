@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * malloc_checked - prototype
+ * @b: cantidad de memoria requerida
+ * Return: always 0
  **/
 void *malloc_checked(unsigned int b)
 {

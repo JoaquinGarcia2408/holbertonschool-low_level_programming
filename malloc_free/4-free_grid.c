@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * free_grid - funcion 
+ * free_grid - funcion
  * @grid: grilla
  * @height: variable
  * Return: always 0

@@ -1,6 +1,7 @@
 #ifndef INIT_DOG
 #define INIT_DOG
 #include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  * init_dog - variable
@@ -8,7 +9,6 @@
  * @name: nombre del perro
  * @age: edad del perro
  * @owner: dueño del perro
- * Return: void
  **/
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {

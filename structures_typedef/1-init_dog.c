@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * init_dog - variable
- * @d: dog
- * @name: nombre del perro
- * @age: edad del perro
- * @owner: dueño del perro
+ * init_dog - function that initialize a vaiable;
+ * @d: struct;
+ * @name: the name;
+ * @age: the age;
+ * @owner: the owner;
  **/
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {

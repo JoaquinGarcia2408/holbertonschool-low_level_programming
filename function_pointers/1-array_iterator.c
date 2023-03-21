@@ -5,6 +5,7 @@
  * array_iterator - funcion
  * @size: tamaño
  * @action: pointer
+ * @array: matriz
  * Return: void
  **/
 void array_iterator(int *array, size_t size, void (*action)(int))

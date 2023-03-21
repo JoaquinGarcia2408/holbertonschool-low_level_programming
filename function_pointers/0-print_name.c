@@ -1,5 +1,5 @@
-#ifndef PRINT_POINTER
-#define PRINT_POINTER
+#ifndef PRINT_NAME
+#define PRINT_NAME
 #include "function_pointers.h"
 /**
  * print_name - puntero permite almacenar la dirección de una variable

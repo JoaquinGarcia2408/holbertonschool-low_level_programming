@@ -3,6 +3,7 @@
  * main - funcion
  * @argc: number of arguments
  * @argv: arrat of arguments
+ * Return: always 0
  **/
 int main(int argc, char *argv[])
 {

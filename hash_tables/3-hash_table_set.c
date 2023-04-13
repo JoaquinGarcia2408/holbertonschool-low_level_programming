@@ -1,5 +1,10 @@
 #include "hash_tables.h"
 /**
+ * hash_table_set - add en element to the hash table
+ * @ht: given hash table
+ * @key: key of the node
+ * @value: value of the key node
+ * Return: 1 if succesful or 0 if not
  **/
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
